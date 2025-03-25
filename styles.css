@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+header {
+    background: #002F6C;
+    color: white;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.salir {
+    background: #ccc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    float: right;
+    margin-top: -40px;
+}
+.hero {
+    background: #005BBB;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.programas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background: #36A9E1;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
